@@ -3,7 +3,7 @@ import java.util.List;
 
 public class BebidaCafe extends Bebida{
     @Override
-    List<String> obterIngredientes() {
+    public List<String> obterIngredientes() {
         List<String> lista = new ArrayList<String>();
         lista.add("cafe");
 
@@ -11,7 +11,7 @@ public class BebidaCafe extends Bebida{
     }
 
     @Override
-    double obterPreco() {
+    public double obterPreco() {
         return 5.35;
     }
 }

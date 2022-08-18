@@ -9,12 +9,12 @@ public class BebidaDecorator extends Bebida{
     }
 
     @Override
-    List<String> obterIngredientes() {
+    public List<String> obterIngredientes() {
         return bebida.obterIngredientes();
     }
 
     @Override
-    double obterPreco() {
+    public double obterPreco() {
         return bebida.obterPreco();
     }
 }
