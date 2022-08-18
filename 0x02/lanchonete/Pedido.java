@@ -19,11 +19,11 @@ public class Pedido {
         String itensDentro = "\tDentro da Caixa:";
 
         for(ItemPedido itemPedido: itensDentroCaixa) {
-            itensDentro += "\n                - " +itemPedido.getTipo() + " " + itemPedido.getNome();
+            itensDentro += "\n\t\t- " +itemPedido.getTipo() + " " + itemPedido.getNome();
         }
 
         for(ItemPedido itemPedido: itensForaCaixa) {
-            itensFora += "\n                - " +itemPedido.getTipo() + " " + itemPedido.getNome();
+            itensFora += "\n\t\t- " +itemPedido.getTipo() + " " + itemPedido.getNome();
         }
 
         return itensFora + "\n" + itensDentro + "\n";
