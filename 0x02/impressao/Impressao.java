@@ -66,7 +66,7 @@ public class Impressao {
 
     @Override
     public String toString() {
-        return String.format("  total de paginas: %d, total coloridas: %d, total preto e branco: %d, %s. total: R$ %.2f",
+        return String.format("total de paginas: %d, total coloridas: %d, total preto e branco: %d, %s. total: R$ %.2f",
                 getPaginasTotais(),
                 getPaginasColoridas(),
                 getPaginasPB(),
