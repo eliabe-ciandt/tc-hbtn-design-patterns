@@ -15,8 +15,8 @@ public class Pedido {
 
     @Override
     public String toString() {
-        String itensFora = "        Fora da Caixa:";
-        String itensDentro = "        Dentro da Caixa:";
+        String itensFora = "\tFora da Caixa:";
+        String itensDentro = "\tDentro da Caixa:";
 
         for(ItemPedido itemPedido: itensDentroCaixa) {
             itensDentro += "\n                - " +itemPedido.getTipo() + " " + itemPedido.getNome();
