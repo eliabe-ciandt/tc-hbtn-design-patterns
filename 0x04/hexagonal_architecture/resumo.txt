@@ -1,0 +1,5 @@
+Arquitetura hexagonal foi criada pelo Alistair Cockburn. A ideia era a de criar uma arquitetura que facilitasse o baixo acoplamento entre classes, facilidade de testes, alta coesão, reusabilidade de código e independência de tecnologias, sendo esses os seus benefícios.
+
+A Clean Architecture foi desenvolvida pelo Uncle Bob com base na arquitetura hexagonal, mas possui um visual mais assemelhado com a Onion Architecture, com suas camadas dispostas em círculos concêntricos, e não em hexágonos.
+
+A arquitetura hexagonal não deve ser usada em sistemas pequenos que demandam baixa manutenção, já que o esforço dispendido pelo desenvolvimento é alto e desnecessário.
